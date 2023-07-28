@@ -49,9 +49,9 @@ public class CourseServiceImpl implements CourseService {
     public List<Course> insertMany(List<Course> courses) {
         List<Course> result = new ArrayList<>();
         for (Course course : courses) {
-                if (!StringUtils.isEmpty(course.getCourseName())) {
-                    result.add(course);
-                }else{
+            if (!StringUtils.isEmpty(course.getCourseName())) {
+                result.add(course);
+            }else {
                     logger.error("Invalid coursename");
                 }
 
