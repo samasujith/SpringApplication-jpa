@@ -8465,3 +8465,7 @@
 23619 [Test worker] INFO  c.s.p.service.EmployeeServiceImpl - Course already exists !
 23658 [Test worker] ERROR c.s.p.service.EmployeeServiceImpl - Employee with id : 0  does not exist ! 
 23719 [Test worker] ERROR c.s.p.service.EmployeeServiceImpl - Employee with lastname sujith is not inserted
+687  [restartedMain] INFO  c.sujith.project.ProjectApplication - Starting ProjectApplication using Java 17.0.8 with PID 26288 (C:\Users\ssama\workspace\git_space\SpringApplication-jpa\build\classes\java\main started by ssama in C:\Users\ssama\workspace\git_space\SpringApplication-jpa)
+687  [restartedMain] DEBUG c.sujith.project.ProjectApplication - Running with Spring Boot v3.1.1, Spring v6.0.10
+688  [restartedMain] INFO  c.sujith.project.ProjectApplication - No active profile set, falling back to 1 default profile: "default"
+5589 [restartedMain] INFO  c.sujith.project.ProjectApplication - Started ProjectApplication in 5.283 seconds (process running for 6.082)
